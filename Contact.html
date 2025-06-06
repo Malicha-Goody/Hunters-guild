@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Hunters Guild</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="contactpage">
+
+  <header class="navbar">
+    <div class="logo">Hunters.Guild</div>
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <nav>
+      <ul class="navbar__menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Socials</a></li>
+        <li><a href="./contact.html">Contact</a></li> </ul>
+    </nav>
+  </header>
+
+  <div class="all">
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <h2>Get in Touch with Hunters Guild</h2>
+        <p style="text-align: center; margin-bottom: 20px; font-size: 14px; color: #555;">
+          We'd love to hear from you! Send us a message and our team will get back to you as soon as possible. Whether you have questions, a project brief, or just want to chat about Web3 community building, we're here.
+        </p>
+        <form onsubmit="return sendMessage(event)">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email Address" required />
+          <input type="text" placeholder="Subject (e.g., Project Inquiry, Partnership)" />
+          <textarea rows="6" placeholder="Your detailed message..." required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section class="footsectionadd">
+    <footer class="footer">
+      <p id="copy">&copy; 2025 Hunters.Guild</p>
+      <div class="social-icons">
+        <p class="reach"> Reach out to us </p>
+        <a href="mailto:goodnessu886@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>        <a href="https://x.com/HUNTERS_DAO1?t=JyYjxUKKVR1HNiAafptxYw&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/company/hunters-guild" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://discord.gg/PPhGMTHq" target="_blank"><i class="fab fa-discord"></i></a>
+      </div>
+    </footer>
+  </section>
+  <script src="./index.js"></script>
+</body>
+</html>
